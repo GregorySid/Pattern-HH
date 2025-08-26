@@ -1,0 +1,73 @@
+[versions]
+agp = "8.12.1"
+kotlin = "1.9.24"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+constraintlayout = "2.2.1"
+lifecycleLivedataKtx = "2.8.7"
+lifecycleViewmodelKtx = "2.8.7"
+navigationFragmentKtx = "2.8.8"
+navigationUiKtx = "2.8.8"
+roomVersion = "2.6.1"
+roomRunVersion = "2.6.1"
+activityVersion = "1.10.1"
+compilerKspVersion = "1.9.24-1.0.20"
+recyclerVersion = "1.4.0"
+coroutinesCoreVersion = "1.7.3"
+coroutinesAndroidVersion = "1.7.3"
+fragmentVersion = "1.8.6"
+retrofitVersion = "2.9.0"
+picassoVersion = "2.71828"
+okhttp3Version = "4.7.2"
+daggerVersion = "2.52"
+swiperefreshVersion ="1.1.0"
+lifecycleRuntimeKtxVersion = "2.9.2"
+activity = "1.10.1"
+
+[libraries]
+androidx-swipe = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshVersion"}
+squareup-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion"}
+squareup-converter  =  {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion"}
+squareup-picasso  = { group = "com.squareup.picasso", name = "picasso", version.ref = "picassoVersion"}
+squareup-logging  = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp3Version"}
+squareup-okhttp  = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3Version"}
+
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerVersion"}
+dagger-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "daggerVersion"}
+
+jetbrains-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutinesCoreVersion" }
+jetbrains-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutinesAndroidVersion" }
+jetbrains-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk7", version.ref = "kotlin" }
+
+androidx-fragment = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentVersion" }
+androidx-room = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRunVersion" }
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityVersion" }
+androidx-room-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerVersion" }
+
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compilerKsp = { id = "com.google.devtools.ksp", version.ref = "compilerKspVersion" }
+compilerHilt = { id = "com.google.dagger.hilt.android", version.ref = "daggerVersion" }
+
+
